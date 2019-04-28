@@ -1,2 +1,3 @@
-# my-portfolio
-This is my professional portfolio
+# John Barnard's portfolio
+
+This is my professional portfolio. Made using AWS and ReactJS.
