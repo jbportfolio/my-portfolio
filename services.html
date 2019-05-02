@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>John Barnard's Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="jumbotron jumbotron-sub">
+      <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.linkedin.com/in/john-barnard-176770174">My LinkdIn</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Projects</a></li>
+             <li><a href="John-IT.pdf" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+      <div class="container">
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            <h3 class="panel-title">Services</h3>
+          </div>
+          <div class="panel-body">
+            <p>This page is intended to showcase my Web development and AWS integration skills, here you will see a showcase of my use of technologies such as; AWS DynamoDB, AWS S3,  AWS Cloudfront, AWS Lambda, AWS API GateWay, HTML, CSS, and other technologies paired with developer tools.</p>
+            <br><br>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Get a "Dad Joke"!
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          This project delivers to you the wonders of "Dad Jokes". Using several AWS services including API Gateway, DynamoDB, and AWS Lambda, you can brighten your day with a joke delivered to you with just the click of a button (In Progress)
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            A Simple Static website
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          This is another example of a Simple Static HTML site created by me and hosted through AWS S3.
+           <a class="btn btn-primary btn-lg" href="http://barnard-project-template.s3-website-us-east-1.amazonaws.com">Click Me</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            In Progress
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          This spot is reserved for my next project.
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <h3> Who I am</h3>
+            <p>Im an aspiring IT professional who's had two passions, history and IT. In 2014 I earned a Bachelor’s degree in History from Virginia State University. From 2016-2018 I worked as a US history teacher at both Peabody Middle School and Vernon Johns Middle School in Petersburg, VA. Now that I've moved to one of the IT centers of the world I've decided to take on a new challenge and pursue my other passion, IT. Over the past 8 months I've thrown myself into this constantly evolving industry, gaining certifications in both AWS and ITIL V3, with plans to pursue many more in the future. I've always love the idea of development, to create something from nothing, and I look forward to working with an employer who values innovation, challenge, and constant professional development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>About this site</h3>
+            <p>This site was created by me, using my knowledge of AWS services, alongside HTML, CSS, and JavaScript</p>
+            <p>Copyright &copy; 2019</p>
+          </div>
+          <div class="col-md-3">
+            <h4>AWS Technologies Used:</h4>
+            <ul>
+              <li>AWS S3</li>
+              <li>AWS CloudFront</li>
+              <li>AWS Route53</li>
+              <li>AWS DynamoDB</li>
+              <li>AWS Lambda</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Other Technologies Used:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div id="photo" class="photo col-md-3">
+            <img src="img/profile.jpg">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
